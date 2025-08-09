@@ -1,13 +1,105 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Streaming Video Page - Demo</title>
   </head>
-  <body>
-    <h1 class="font-bold text-center">Hello World</h1>
+  <body class="bg-gray-500 text-white">
+    <header id="mainHeader"
+      class="bg-gray-950/75 h-15 fixed flex justify-between items-center pt-5 top-0 left-0 w-full z-10"
+    >
+      <a href="#home" class="w-10 h-20"
+        ><img src="./src/assets/Netflix_Symbol_RGB.png" alt="logo" class=""
+      /></a>
+
+      <div class="navBtnbox flex mr-2 gap-4">
+        <button id="downloadBtn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+            />
+          </svg>
+        </button>
+
+        <button id="searchBtn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <nav
+      id="mainNav"
+      class="bg-gray-950/75 h-10 mt-[60px]"
+    >
+      <ul class="flex justify-evenly items-center mr-15 pt-2 pb-2">
+        <li>
+          <a
+            class="text-xs border-2 border-gray-400 text-gray-400 py-1 px-2 rounded-2xl font-bold"
+            href="#"
+            >Seriale i programy</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-xs border-2 border-gray-400 text-gray-400 py-1 px-2 rounded-2xl font-bold"
+            href="#"
+            >Filmy</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-xs border-2 flex gap-1 border-gray-400 text-gray-400 py-1 px-2 rounded-2xl font-bold"
+            href="#"
+            >Kategorie
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-4 ml-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="movie-section" class="h-500">
+        <h2>ssssssssssssssssssssssssssssss</h2>
+      </section>
+      <section><h2>wwwwwwwwwwwwww</h2></section>
+    </main>
+   
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
