@@ -1,11 +1,4 @@
-export async function moviesData() {
-  
-}
-
-
 //kategorie filmy 
-
-
     export async function categoryMovies(){
       const response = await fetch('./movies.json');
       const data = await response.json();
@@ -69,6 +62,35 @@ export async function moviesData() {
         `;
         documentaryContainer.appendChild(movieDiv);
       })
+
+    }
+
+
+    //most popular
+    export async function mostPopular(){
+      const response = await fetch('./movies.json');
+      const data = await response.json();
+      // console.log(data);
+      const movieContainer = document.getElementById('most-popular')
+      let ocena = null
+      for(let key in data){
+        data[key].forEach(movie => {
+          // console.log(movie.ocena)
+          
+          if(movie.ocena > ocena){
+            ocena = movie
+            console.log(ocena)
+            
+          }
+          
+          movieContainer.innerHTML = `<div class = 'bg-gray-950 rounded-lg border-2 border-gray-400 '><img src="${ocena.obraz}" alt="${ocena.tytul}" class="w-full h-full object-fill rounded">
+          <h3 class="font-bold text-xs md:text-lg mt-2 ">${ocena.tytul}</h3>
+          <p class="font-bold text-yellow-400 text-xs md:text-lg  ">Ocena: ${ocena.ocena}</p></div>`;
+        })
+        
+      }
+      
+        
 
     }
     
