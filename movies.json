@@ -29,6 +29,36 @@
       "obraz": "https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
       "ocena": 8.6,
       "trailer": "https://www.youtube-nocookie.com/embed/Ki4haFrqSrw"
+    },
+    {
+      "tytul": "The Dark Knight",
+      "obraz": "https://img.youtube.com/vi/EXeTwQWrcwY/hqdefault.jpg",
+      "ocena": 9.0,
+      "trailer": "https://www.youtube-nocookie.com/embed/EXeTwQWrcwY"
+    },
+    {
+      "tytul": "Fight Club",
+      "obraz": "https://img.youtube.com/vi/SUXWAEX2jlg/hqdefault.jpg",
+      "ocena": 8.8,
+      "trailer": "https://www.youtube-nocookie.com/embed/SUXWAEX2jlg"
+    },
+    {
+      "tytul": "Lista Schindlera",
+      "obraz": "https://img.youtube.com/vi/gG22XNhtnoY/hqdefault.jpg",
+      "ocena": 9.0,
+      "trailer": "https://www.youtube-nocookie.com/embed/gG22XNhtnoY"
+    },
+    {
+      "tytul": "Parasite",
+      "obraz": "https://img.youtube.com/vi/SEUXfv87Wpk/hqdefault.jpg",
+      "ocena": 8.6,
+      "trailer": "https://www.youtube-nocookie.com/embed/SEUXfv87Wpk"
+    },
+    {
+      "tytul": "Pianista",
+      "obraz": "https://img.youtube.com/vi/BFwGqLa_oAo/hqdefault.jpg",
+      "ocena": 8.5,
+      "trailer": "https://www.youtube-nocookie.com/embed/BFwGqLa_oAo"
     }
   ],
   "horror": [
@@ -61,6 +91,36 @@
       "obraz": "https://image.tmdb.org/t/p/w500/lHV8HHlhwNup2VbpiACtlKzaGIQ.jpg",
       "ocena": 7.9,
       "trailer": "https://www.youtube-nocookie.com/embed/V6wWKNij_1M"
+    },
+    {
+      "tytul": "Obcy: Ósmy pasażer Nostromo",
+      "obraz": "https://img.youtube.com/vi/LjLamj-b0I8/hqdefault.jpg",
+      "ocena": 8.4,
+      "trailer": "https://www.youtube-nocookie.com/embed/LjLamj-b0I8"
+    },
+    {
+      "tytul": "Uciekaj!",
+      "obraz": "https://img.youtube.com/vi/DzfpyUB60YY/hqdefault.jpg",
+      "ocena": 7.7,
+      "trailer": "https://www.youtube-nocookie.com/embed/DzfpyUB60YY"
+    },
+    {
+      "tytul": "The Ring",
+      "obraz": "https://img.youtube.com/vi/ymPUAsPsTwg/hqdefault.jpg",
+      "ocena": 7.2,
+      "trailer": "https://www.youtube-nocookie.com/embed/ymPUAsPsTwg"
+    },
+    {
+      "tytul": "Ciche miejsce",
+      "obraz": "https://img.youtube.com/vi/WR7cc5t7tv8/hqdefault.jpg",
+      "ocena": 7.5,
+      "trailer": "https://www.youtube-nocookie.com/embed/WR7cc5t7tv8"
+    },
+    {
+      "tytul": "Czarownica: Bajka ludowa z Nowej Anglii",
+      "obraz": "https://img.youtube.com/vi/iQXmlf3Sefg/hqdefault.jpg",
+      "ocena": 6.9,
+      "trailer": "https://www.youtube-nocookie.com/embed/iQXmlf3Sefg"
     }
   ],
   "komedie": [
@@ -93,6 +153,36 @@
       "obraz": "https://image.tmdb.org/t/p/w500/ek8e8txUyUwd2BNqj6lFEerJfbq.jpg",
       "ocena": 7.6,
       "trailer": "https://www.youtube-nocookie.com/embed/4eaZ_48ZYog"
+    },
+    {
+      "tytul": "Grand Budapest Hotel",
+      "obraz": "https://img.youtube.com/vi/1Fg5iWmQjwk/hqdefault.jpg",
+      "ocena": 8.1,
+      "trailer": "https://www.youtube-nocookie.com/embed/1Fg5iWmQjwk"
+    },
+    {
+      "tytul": "Legenda telewizji: Anchorman",
+      "obraz": "https://img.youtube.com/vi/T-IAKHe3Cj4/hqdefault.jpg",
+      "ocena": 7.1,
+      "trailer": "https://www.youtube-nocookie.com/embed/T-IAKHe3Cj4"
+    },
+    {
+      "tytul": "Step Brothers",
+      "obraz": "https://img.youtube.com/vi/CewglxElBK0/hqdefault.jpg",
+      "ocena": 6.9,
+      "trailer": "https://www.youtube-nocookie.com/embed/CewglxElBK0"
+    },
+    {
+      "tytul": "Maska",
+      "obraz": "https://img.youtube.com/vi/LZl69yk5lEY/hqdefault.jpg",
+      "ocena": 6.9,
+      "trailer": "https://www.youtube-nocookie.com/embed/LZl69yk5lEY"
+    },
+    {
+      "tytul": "Wolny dzień Ferrisa Buellera",
+      "obraz": "https://img.youtube.com/vi/R-P6p86px6U/hqdefault.jpg",
+      "ocena": 7.8,
+      "trailer": "https://www.youtube-nocookie.com/embed/R-P6p86px6U"
     }
   ],
   "dokument": [
@@ -125,6 +215,36 @@
       "obraz": "https://img.youtube.com/vi/fLOeH-Oq_1Y/hqdefault.jpg",
       "ocena": 8.1,
       "trailer": "https://www.youtube-nocookie.com/embed/fLOeH-Oq_1Y"
+    },
+    {
+      "tytul": "Free Solo",
+      "obraz": "https://img.youtube.com/vi/urRVZ4SW7WU/hqdefault.jpg",
+      "ocena": 8.2,
+      "trailer": "https://www.youtube-nocookie.com/embed/urRVZ4SW7WU"
+    },
+    {
+      "tytul": "Planet Earth II",
+      "obraz": "https://img.youtube.com/vi/c8aFcHFu8QM/hqdefault.jpg",
+      "ocena": 9.5,
+      "trailer": "https://www.youtube-nocookie.com/embed/c8aFcHFu8QM"
+    },
+    {
+      "tytul": "Dylemat społeczny",
+      "obraz": "https://img.youtube.com/vi/uaaC57tcci0/hqdefault.jpg",
+      "ocena": 7.6,
+      "trailer": "https://www.youtube-nocookie.com/embed/uaaC57tcci0"
+    },
+    {
+      "tytul": "Sugar Man",
+      "obraz": "https://img.youtube.com/vi/vUSzL2leaFM/hqdefault.jpg",
+      "ocena": 8.2,
+      "trailer": "https://www.youtube-nocookie.com/embed/vUSzL2leaFM"
+    },
+    {
+      "tytul": "Won't You Be My Neighbor?",
+      "obraz": "https://img.youtube.com/vi/FhwktRDG_aQ/hqdefault.jpg",
+      "ocena": 8.4,
+      "trailer": "https://www.youtube-nocookie.com/embed/FhwktRDG_aQ"
     }
   ]
 }
