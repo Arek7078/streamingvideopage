@@ -115,7 +115,7 @@
       <!-- most popular -->
       <section
         id="most-popular"
-        class="flex justify-center h-screen p-3 mb-5"
+        class="mt-16 min-h-[80vh] lg:min-h-[85vh] px-4"
       ></section>
 
       <!-- dramat -->
@@ -123,9 +123,59 @@
         <h2 class="px-4 font-semibold text-xl md:text-2xl tracking-tight mt-2">
           Dramaty
         </h2>
-        <div
-          class="dramat-container flex gap-3 mt-2 px-4 py-2 overflow-x-auto no-scrollbar snap-x snap-mandatory flex-nowrap"
-        ></div>
+
+        <!-- wrapper do pozycjonowania strzałek -->
+        <div class="relative">
+          <!-- lewa strzałka -->
+          <button
+            class="arrowLeft hidden md:flex items-center justify-center absolute left-2 top-1/2 -translate-y-1/2 z-10 h-10 w-10 md:h-12 md:w-12 rounded-full bg-black/50 hover:bg-black/70 transition"
+            type="button"
+            aria-label="Poprzednie"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+
+          <!-- scroller -->
+          <div
+            class="dramat-container flex gap-3 mt-2 px-12 py-2 overflow-x-auto no-scrollbar snap-x snap-mandatory flex-nowrap"
+          ></div>
+
+          <!-- prawa strzałka -->
+          <button
+            class="arrowRight hidden md:flex items-center justify-center absolute right-2 top-1/2 -translate-y-1/2 z-10 h-10 w-10 md:h-12 md:w-12 rounded-full bg-black/50 hover:bg-black/70 transition"
+            type="button"
+            aria-label="Następne"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 rotate-180"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+        </div>
+
         <hr class="border-gray-600 mt-2 mb-2" />
       </section>
       <!-- horror -->
@@ -134,9 +184,55 @@
         <h2 class="px-4 font-semibold text-xl md:text-2xl tracking-tight mt-2">
           Horrory
         </h2>
-        <div
-          class="horror-container flex gap-3 mt-2 px-4 py-2 overflow-x-auto no-scrollbar snap-x snap-mandatory flex-nowrap"
-        ></div>
+        <div class="relative">
+          <!-- lewa strzałka -->
+          <button
+            class="arrowLeft hidden md:flex items-center justify-center absolute left-2 top-1/2 -translate-y-1/2 z-10 h-10 w-10 md:h-12 md:w-12 rounded-full bg-black/50 hover:bg-black/70 transition"
+            type="button"
+            aria-label="Poprzednie"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+
+          <div
+            class="horror-container flex gap-3 mt-2 px-12 py-2 overflow-x-auto no-scrollbar snap-x snap-mandatory flex-nowrap"
+          ></div>
+
+          <!-- prawa strzałka -->
+          <button
+            class="arrowRight hidden md:flex items-center justify-center absolute right-2 top-1/2 -translate-y-1/2 z-10 h-10 w-10 md:h-12 md:w-12 rounded-full bg-black/50 hover:bg-black/70 transition"
+            type="button"
+            aria-label="Następne"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 rotate-180"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+        </div>
         <hr class="border-gray-600 mt-2 mb-2" />
       </section>
       <!-- comedy -->
@@ -144,9 +240,55 @@
         <h2 class="px-4 font-semibold text-xl md:text-2xl tracking-tight mt-2">
           Komedia
         </h2>
-        <div
-          class="comedy-container flex gap-3 mt-2 px-4 py-2 overflow-x-auto no-scrollbar snap-x snap-mandatory flex-nowrap"
-        ></div>
+        <div class="relative">
+          <!-- lewa strzałka -->
+          <button
+            class="arrowLeft hidden md:flex items-center justify-center absolute left-2 top-1/2 -translate-y-1/2 z-10 h-10 w-10 md:h-12 md:w-12 rounded-full bg-black/50 hover:bg-black/70 transition"
+            type="button"
+            aria-label="Poprzednie"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+
+          <div
+            class="comedy-container flex gap-3 mt-2 px-12 py-2 overflow-x-auto no-scrollbar snap-x snap-mandatory flex-nowrap"
+          ></div>
+
+          <!-- prawa strzałka -->
+          <button
+            class="arrowRight hidden md:flex items-center justify-center absolute right-2 top-1/2 -translate-y-1/2 z-10 h-10 w-10 md:h-12 md:w-12 rounded-full bg-black/50 hover:bg-black/70 transition"
+            type="button"
+            aria-label="Następne"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 rotate-180"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+        </div>
         <hr class="border-gray-600 mt-2 mb-2" />
       </section>
       <!-- dokuments -->
@@ -154,9 +296,55 @@
         <h2 class="px-4 font-semibold text-xl md:text-2xl tracking-tight mt-2">
           Dokumentalne
         </h2>
-        <div
-          class="documentary-container flex gap-3 mt-2 px-4 py-2 overflow-x-auto no-scrollbar snap-x snap-mandatory flex-nowrap"
-        ></div>
+        <div class="relative">
+          <!-- lewa strzałka -->
+          <button
+            class="arrowLeft hidden md:flex items-center justify-center absolute left-2 top-1/2 -translate-y-1/2 z-10 h-10 w-10 md:h-12 md:w-12 rounded-full bg-black/50 hover:bg-black/70 transition"
+            type="button"
+            aria-label="Poprzednie"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+
+          <div
+            class="documentary-container flex gap-3 mt-2 px-12 py-2 overflow-x-auto no-scrollbar snap-x snap-mandatory flex-nowrap"
+          ></div>
+
+          <!-- prawa strzałka -->
+          <button
+            class="arrowRight hidden md:flex items-center justify-center absolute right-2 top-1/2 -translate-y-1/2 z-10 h-10 w-10 md:h-12 md:w-12 rounded-full bg-black/50 hover:bg-black/70 transition"
+            type="button"
+            aria-label="Następne"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 rotate-180"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+        </div>
         <hr class="border-gray-600 mt-2 mb-2" />
       </section>
     </main>

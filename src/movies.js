@@ -104,6 +104,6 @@ export async function mostPopular() {
   } else {
     const trailer = bestMovie.trailer + "?autoplay=1&mute=1";
     console.log(trailer);
-    movieContainer.innerHTML = `<iframe class="w-full h-screen" src=${trailer} frameborder="0" autoplay allowfullscreen></iframe>`;
+    movieContainer.innerHTML = `<iframe class=" mt-5 w-full h-[80vh] pointer-events-none" scrolling="yes" src=${trailer} frameborder="0" autoplay allowfullscreen></iframe>`;
   }
 }
