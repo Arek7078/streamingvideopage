@@ -1,0 +1,110 @@
+{
+  "dramat": [
+    {
+      "tytul": "Skazani na Shawshank",
+      "obraz": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+      "ocena": 9.3
+    },
+    {
+      "tytul": "Forrest Gump",
+      "obraz": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+      "ocena": 8.8
+    },
+    {
+      "tytul": "Ojciec chrzestny",
+      "obraz": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "ocena": 9.2
+    },
+    {
+      "tytul": "Gladiator",
+      "obraz": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+      "ocena": 8.5
+    },
+    {
+      "tytul": "Zielona mila",
+      "obraz": "https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+      "ocena": 8.6
+    }
+  ],
+  "horror": [
+    {
+      "tytul": "Lśnienie",
+      "obraz": "https://image.tmdb.org/t/p/w500/9fgh3Ns1iRzlQNYuJyK0ARQZU7w.jpg",
+      "ocena": 8.4
+    },
+    {
+      "tytul": "Obecność",
+      "obraz": "https://image.tmdb.org/t/p/w500/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+      "ocena": 7.5
+    },
+    {
+      "tytul": "To",
+      "obraz": "https://image.tmdb.org/t/p/w500/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg",
+      "ocena": 7.3
+    },
+    {
+      "tytul": "Egzorcysta",
+      "obraz": "https://image.tmdb.org/t/p/w500/5yqC2Ohjv3Zs3cSoV2xwEJe3hdg.jpg",
+      "ocena": 8.0
+    },
+    {
+      "tytul": "Hereditary",
+      "obraz": "https://image.tmdb.org/t/p/w500/lHV8HHlhwNup2VbpiACtlKzaGIQ.jpg",
+      "ocena": 7.9
+    }
+  ],
+  "komedie": [
+    {
+      "tytul": "Kac Vegas",
+      "obraz": "https://image.tmdb.org/t/p/w500/9yBXrJ9BqgLZfHf1QAxV8wFMv.jpg",
+      "ocena": 7.7
+    },
+    {
+      "tytul": "Forrest Gump",
+      "obraz": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+      "ocena": 8.8
+    },
+    {
+      "tytul": "Dzień świstaka",
+      "obraz": "https://image.tmdb.org/t/p/w500/wDHYbqz4Z7KP3LR1d6Nug5BppGK.jpg",
+      "ocena": 8.1
+    },
+    {
+      "tytul": "Deadpool",
+      "obraz": "https://image.tmdb.org/t/p/w500/inVq3FRqcYIRl2la8iZikYYxFNR.jpg",
+      "ocena": 8.0
+    },
+    {
+      "tytul": "Superbad",
+      "obraz": "https://image.tmdb.org/t/p/w500/ek8e8txUyUwd2BNqj6lFEerJfbq.jpg",
+      "ocena": 7.6
+    }
+  ],
+  "dokument": [
+    {
+      "tytul": "Our Planet",
+      "obraz": "https://image.tmdb.org/t/p/w500/wSgA4LAtV5UO3SmgLF9V7Ih1fn.jpg",
+      "ocena": 9.0
+    },
+    {
+      "tytul": "Making a Murderer",
+      "obraz": "https://image.tmdb.org/t/p/w500/7mZrf2EjRohT0j5Mmt1fOcLrnZ6.jpg",
+      "ocena": 8.6
+    },
+    {
+      "tytul": "The Last Dance",
+      "obraz": "https://image.tmdb.org/t/p/w500/eA2D86Y6VPWuUzZyatiLBwpTilQ.jpg",
+      "ocena": 9.1
+    },
+    {
+      "tytul": "Seaspiracy",
+      "obraz": "https://image.tmdb.org/t/p/w500/lLrKX4pTfxG2l4cHzfSEV1qpXlM.jpg",
+      "ocena": 8.2
+    },
+    {
+      "tytul": "Blackfish",
+      "obraz": "https://image.tmdb.org/t/p/w500/xYlhqdz7fvcLzF6ZgAg6RCsS9jP.jpg",
+      "ocena": 8.1
+    }
+  ]
+}
