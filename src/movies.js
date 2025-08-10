@@ -1,6 +1,6 @@
 //kategorie filmy
 export async function categoryMovies() {
-  const response = await fetch("./movies.json");
+  const response = await fetch("/movies.json");
   const data = await response.json();
   const dramatContainer = document.querySelector(".dramat-container");
   data.dramat.forEach((movie) => {
@@ -70,7 +70,7 @@ export async function categoryMovies() {
 
 //most popular
 export async function mostPopular() {
-  const response = await fetch("./movies.json");
+  const response = await fetch("/movies.json");
   const data = await response.json();
 
   let scoreArr = [];
